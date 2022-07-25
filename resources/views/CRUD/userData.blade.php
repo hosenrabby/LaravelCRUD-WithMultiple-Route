@@ -50,6 +50,7 @@
                         @endforeach
                     </tbody>
                 </table>
+                <p>{{ $passData->links() }}</p>
             </div>
         </div>
     </div>

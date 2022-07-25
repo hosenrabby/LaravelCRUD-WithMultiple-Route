@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class crudController extends Controller
 {
     public function index(){
-        $userInfo = crudModel::all();
+        $userInfo = crudModel::latest()->paginate(4);
         return view('CRUD.userData', ['passData' => $userInfo]);
     }
     public function create(){
