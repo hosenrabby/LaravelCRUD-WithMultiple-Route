@@ -1,0 +1,11 @@
+
+
+=============================================
+-->Open phpmy-admin
+
+-->create database , named laracrud  ..
+
+--> Then open CMD and command
+
+--> php artisan migrate:refresh
+==============================================
